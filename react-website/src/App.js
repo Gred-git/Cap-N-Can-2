@@ -14,7 +14,7 @@ function App() {
             <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route path="/search" component={Search} />
+                <Route path="/search" element={Search} />
                 <Route path="/Challenges" component={Challenges} />
                 <Route path="/Forums" component={Forums} />
             </Routes>

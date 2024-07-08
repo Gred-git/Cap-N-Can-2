@@ -2,8 +2,15 @@ import React from "react";
  
 const Forums = () => {
     return (
-        <div>
-            <h1>Cap N' Can Forums</h1>
+
+        <div className="Forums">
+
+        <header className="Forums-header">
+
+            <p> Welcome to Cap N' Can Forums ! </p>
+
+        </header>
+
         </div>
     );
 };

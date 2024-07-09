@@ -41,6 +41,13 @@ import './SearchFilters.css';
           <option value="2">2</option>
           <option value="3">3</option>
         </select>
+        <p className="filter-title">User:</p>
+        <select id="challenge" name="challenge">
+          <option value="none">None</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
       </div>
     </div>
   );

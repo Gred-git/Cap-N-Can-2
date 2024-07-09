@@ -14,9 +14,9 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/search" element={Search} />
-                <Route path="/Challenges" component={Challenges} />
-                <Route path="/Forums" component={Forums} />
+                <Route path="/search" element={<Search />} />
+                <Route path="/challenges" element={<Challenges />} />
+                <Route path="/forums" element={<Forums />} />
             </Routes>
         </Router>
     );

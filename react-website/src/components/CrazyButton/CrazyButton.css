@@ -1,5 +1,5 @@
 .crazy-button {
-    background-color: #f2596c;
+    background: linear-gradient(45deg, #ffdb59, #f2596c, #8d4fff, #56d6ff);
     border: none;
     padding: 12px 24px;
     cursor: pointer;
@@ -9,6 +9,9 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
+    color:#fff;
+    scale: 250%;
+    margin: 50px;
   }
 
   .crazy-button-buttonText {
@@ -26,7 +29,7 @@
     height: 200%;
     background: linear-gradient(45deg, #ffdb59, #f2596c, #8d4fff, #56d6ff);
     transition: all 0.4s;
-    z-index: 0;
+    z-index: -1;
   }
   
   .crazy-button:hover::before {

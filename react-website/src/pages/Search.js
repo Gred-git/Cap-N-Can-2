@@ -13,6 +13,61 @@ const galleryItems = [
       artist: 'John Doe'
     },
     {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+      {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+      {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+      {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+      {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+      {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+      {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+      {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+      {
+        title: 'Artwork 1',
+        imageUrl: 'artwork1.jpg',
+        tags: ['Abstract', 'Oil Painting', 'Modern'],
+        artist: 'John Doe'
+      },
+
+    {
       title: 'Artwork 1',
       imageUrl: 'artwork1.jpg',
       tags: ['Abstract', 'Oil Painting', 'Modern'],
@@ -31,13 +86,16 @@ const Search = () => {
 
         <header className="Search-header">
 
-            <p> Welcome to Cap N' Can </p>
+            <p> Browse our Gallery ! </p>
 
             <SearchFilters />
 
+        </header>
+
+        <header className='Gallery-header'>
+
             <GalleryContainer galleryItems={galleryItems} />
-
-
+        
         </header>
 
 

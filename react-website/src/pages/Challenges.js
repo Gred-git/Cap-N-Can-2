@@ -35,7 +35,9 @@ const Challenges = () => {
             <p> Current Challenge: The colour blue </p>
             <CrazyButton buttonText="Upload" />
 
+        </header>
 
+        <header className='Gallery-header'>
             <p> Week 1 Challenge</p>
             <GalleryContainer galleryItems={galleryItems} />
 
@@ -44,8 +46,7 @@ const Challenges = () => {
 
             <p> Week 3 Challenge</p>
             <GalleryContainer galleryItems={galleryItems} />
-
-        </header>
+            </header>
 
 
         </div>

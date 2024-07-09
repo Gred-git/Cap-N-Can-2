@@ -1,6 +1,7 @@
 import React from "react";
 
 import './Search.css';
+import SearchFilters from "../components/SearchFilters/SearchFilters";
 import GalleryContainer from '../../src/components/GalleryContainer/GalleryContainer.js'; 
 
 
@@ -31,6 +32,8 @@ const Search = () => {
         <header className="Search-header">
 
             <p> Welcome to Cap N' Can </p>
+
+            <SearchFilters />
 
             <GalleryContainer galleryItems={galleryItems} />
 
